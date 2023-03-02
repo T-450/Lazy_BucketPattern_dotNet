@@ -43,3 +43,17 @@ S
 #BucketPattern/UML/IRepository5.puml,9\4\9493eb2f1ab628ff9f92a8d5236e08c2393de8c2
 N
 BucketPattern/UML/Service.puml,3\a\3ac6cc05fa3e46061ff3e4966418a558fd728c31
+W
+'BucketPattern/Implementation/Service.cs,8\5\8584977d97631bf3c646b80c2907e7ee86ce7a72
+A
+BucketPattern.sln,7\d\7dea688c3c4b024b577ca4368c626c99b55463da
+U
+%BucketPatternTests/RepoBucketTests.cs,c\d\cdadeb583868287b8f398ee666bfaf32a7216979
+L
+BucketPatternTests/Usings.cs,1\1\117ce15f2a29af0f488c21eaa6bccc6e70aecefd
+R
+"BucketPattern/BucketPattern.csproj,3\d\3da23c132a79b0d2418bbff19cd4debcfc06f032
+\
+,BucketPatternTests/BucketPatternTests.csproj,1\9\1973624e6a725bc01dcc2ad5cb9893fdb23d96f9
+X
+(BucketPatternTests/ServiceBucketTests.cs,8\1\81fd53db4c9a582847b0ae54d697d82f4ffb7f4c

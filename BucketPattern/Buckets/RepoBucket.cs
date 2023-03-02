@@ -48,8 +48,6 @@
         }
 
         private Lazy<T> GetInstance<T>()
-        {
-            return new Lazy<T>(_serviceProvider.GetRequiredService<T>());
-        }
+            =>  new(_serviceProvider.GetRequiredService<T>());
     }
 }
