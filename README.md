@@ -1,5 +1,7 @@
 ## Bucket Pattern
 
+The Bucket Pattern is a design pattern that aims to solve the problem of messy dependency injection in code with many dependencies. The pattern organizes dependencies into "buckets," with each bucket being a category of dependencies. The Lazy<T> feature is leveraged to provide delayed creation of dependencies until they are needed, resulting in cleaner and more readable code. A practical example is provided, showing how the pattern can be implemented in .NET.
+
 ### Problem
 
 The problem that the bucket pattern is trying to solve is how messy the injection of dependencies can be with many dependencies. In order to write cleaner and more appealing code, we can provide a class with its dependencies through a “bucket” filled with common objects.
