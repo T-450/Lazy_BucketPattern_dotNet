@@ -99,3 +99,5 @@ public async Task<string> MethodAsync() => _repoBucket.Repo1.GetInfo();
 ```
 
 From this code, you can see that we only injected IRepoBucket, and we have all repositories in one bucket, and the code looks much cleaner and readable.
+
+Source: [Clean Code: Bucket Pattern, Lazy Dependency Creation in .NET](https://trailheadtechnology.com/clean-code-bucket-pattern-lazy-dependency-creation-in-net/)
