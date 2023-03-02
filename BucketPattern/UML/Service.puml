@@ -1,0 +1,7 @@
+@startuml
+class Service {
+    + Service(repoBucket:IRepoBucket)
+    + MethodAsync() : Task<string>
+}
+IService <|-- Service
+@enduml

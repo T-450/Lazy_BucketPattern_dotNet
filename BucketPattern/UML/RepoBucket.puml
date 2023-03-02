@@ -1,0 +1,13 @@
+@startuml
+class RepoBucket {
+    + RepoBucket(serviceProvider:IServiceProvider)
+    + Deconstruct(lazyRepo1:Lazy<IRepository1>, lazyRepo2:Lazy<IRepository2>, lazyRepo3:Lazy<IRepository3>, lazyRepo4:Lazy<IRepository4>, lazyRepo5:Lazy<IRepository5>, lazyRepo6:Lazy<IRepository6>) : void
+}
+IRepoBucket <|-- RepoBucket
+RepoBucket --> "Repo1" IRepository1
+RepoBucket --> "Repo2" IRepository2
+RepoBucket --> "Repo3" IRepository3
+RepoBucket --> "Repo4" IRepository4
+RepoBucket --> "Repo5" IRepository5
+RepoBucket --> "Repo6" IRepository6
+@enduml

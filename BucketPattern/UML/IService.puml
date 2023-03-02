@@ -1,0 +1,5 @@
+@startuml
+interface IService {
+    MethodAsync() : Task<string>
+}
+@enduml

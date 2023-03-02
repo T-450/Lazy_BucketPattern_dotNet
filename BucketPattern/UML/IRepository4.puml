@@ -1,0 +1,5 @@
+@startuml
+interface IRepository4 {
+    GetInfo() : string
+}
+@enduml

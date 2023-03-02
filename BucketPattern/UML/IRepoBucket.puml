@@ -1,0 +1,10 @@
+@startuml
+interface IRepoBucket {
+}
+IRepoBucket --> "Repo1" IRepository1
+IRepoBucket --> "Repo2" IRepository2
+IRepoBucket --> "Repo3" IRepository3
+IRepoBucket --> "Repo4" IRepository4
+IRepoBucket --> "Repo5" IRepository5
+IRepoBucket --> "Repo6" IRepository6
+@enduml
